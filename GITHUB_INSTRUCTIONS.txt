@@ -1,0 +1,126 @@
+📘 GUIA: COMO COMPARTILHAR NO GITHUB
+=====================================
+
+✅ PASSO 1: Criar repositório no GitHub (ONLINE)
+================================================
+
+1. Acesse https://github.com e faça login
+2. Clique no "+" (canto superior direito) → New repository
+3. Preencha os dados:
+   - Repository name: gestor-vendas
+   - Description: Aplicativo desktop para gerenciar vendas e exportar para Excel
+   - Public (para que qualquer um possa ver)
+   - ⚠️ NÃO marque opções de README/gitignore (já temos localmente)
+4. Clique em "Create repository"
+
+📋 GitHub mostrará comandos parecidos com:
+   git remote add origin https://github.com/seu-usuario/gestor-vendas.git
+   git branch -m main master
+   git push -u origin master
+
+⚠️ Copie e use os comandos que GitHub mostrar!
+
+
+✅ PASSO 2: Conectar repositório local ao GitHub
+==================================================
+
+Suas configurações já estão aqui:
+- Nome: Victor Gomes
+- Email: victorrgommes@gmail.com
+- Repositório inicializado: ✓
+- Primeiro commit feito: ✓
+
+Agora execute NO TERMINAL do projeto:
+
+git remote add origin https://github.com/seu-usuario/gestor-vendas.git
+
+(Substitua "seu-usuario" pelo seu usuário GitHub)
+
+
+✅ PASSO 3: Fazer o primeiro push
+==================================
+
+Execute no terminal:
+
+git push -u origin master
+
+Será solicitado seu GitHub token ou senha.
+(GitHub pedirá autenticação na primeira vez)
+
+
+✅ PASSO 4: Verificar no GitHub
+===============================
+
+1. Abra https://github.com/seu-usuario/gestor-vendas
+2. Deverá ver:
+   ✓ Arquivo README.md com documentação
+   ✓ Arquivo py001.py com o código
+   ✓ requirements.txt com dependências
+   ✓ LICENSE (MIT)
+   ✓ .gitignore
+
+
+🔑 TOKENS E AUTENTICAÇÃO (IMPORTANTE)
+======================================
+
+Se não tiver um GitHub Token:
+
+1. GitHub → Settings (canto superior direito)
+2. Developer settings → Personal access tokens → Tokens (classic)
+3. Generate new token
+4. Marque: repo, gist, read:user
+5. Copie o token gerado
+6. USE O TOKEN como senha no terminal
+
+
+📊 STATUS DO SEU PROJETO
+=========================
+
+✅ Git inicializado
+✅ Arquivos prontos
+✅ README.md completo
+✅ LICENSE MIT
+✅ requirements.txt
+✅ .gitignore
+✅ Primeiro commit: 94b9e7a
+✅ Arquivo py001.py (269 linhas)
+
+
+🚀 PRÓXIMAS AÇÕES
+=================
+
+1️⃣ Crie o repositório no GitHub
+2️⃣ Execute os comandos no terminal:
+   
+   git remote add origin https://github.com/seu-usuario/gestor-vendas.git
+   git push -u origin master
+
+3️⃣ Visite seu repositório e compartilhe o link!
+
+
+💡 DICAS
+========
+
+• Seu projeto local está 100% pronto para GitHub
+• Os arquivos não precisam de nenhuma mudança
+• O executável está em dist/ (não será enviado por .gitignore)
+• Qualquer pessoa pode clonar seu projeto com:
+  git clone https://github.com/seu-usuario/gestor-vendas.git
+
+• Para fazer novos commits:
+  git add .
+  git commit -m "Sua mensagem aqui"
+  git push
+
+
+📞 PRECISA DE AJUDA?
+====================
+
+Se der erro:
+1. Verifique se o repositório existe no GitHub
+2. Confirme o usuário e nome do repo estão corretos
+3. Verifique conectividade com internet
+4. Use token GitHub se pedir senha
+
+
+Sucesso! 🎉
