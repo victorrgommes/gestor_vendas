@@ -138,18 +138,18 @@ Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalh
 ## 👤 Autor
 
 **Seu Nome**
-- GitHub: [@seu-usuario](https://github.com/seu-usuario)
-- Email: seu.email@exemplo.com
+- GitHub: [@victorrgommes](https://github.com/victorrgommes)
+- Email: victorrgommes@gmail.com
 
 ## 🤝 Suporte
 
-Encontrou um bug? Abra uma [issue](https://github.com/seu-usuario/gestor-vendas/issues)!
+Encontrou um bug? Abra uma [issue](https://github.com/victorrgommes/gestor-vendas/issues)!
 
 ## 📞 Contato
 
 Dúvidas? Perguntas? Sugestões?
 
-- 📧 Email: seu.email@exemplo.com
+- 📧 Email: victorrgommes@gmail.com
 - 💬 GitHub Discussions
 
 ---
